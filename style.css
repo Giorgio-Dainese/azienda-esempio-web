@@ -1,8 +1,17 @@
+body{
+    margin: 0;
+}
+
 /* Giusto */
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: #fff;
 }
 
 /* Sbagliato. Così è come viene incollato. Sostituire element.style con l'elemento da modificare 
@@ -34,6 +43,7 @@ element.style {
 main {
     display: grid;
     grid-template-columns: 1fr 2fr;
+    margin: 0 8px;
 }
 
 article {
@@ -87,3 +97,66 @@ header div {
     font-size: 25px;
     text-transform: uppercase;
 }
+/* Per selezionare la classe si usa . e per l'id si usa # */
+#chi-siamo img{
+    width: 200px;
+}
+
+.clear {
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+/* INIZIO tentativo fallito delle 3 card */
+
+
+article .artprogetti{
+    background-color: aqua;
+}
+
+
+.topcard{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+#progetti{
+    display:flex;
+}
+
+.topcard img{
+    position: relative;
+}
+
+.topcard h2{
+    position: absolute;
+}
+
+.topcard.fototesto{
+    width: 20px;
+    height: 20px;
+}
+
+#fotoprofilo{
+    width: 40px;
+    height: 40px;
+}
+
+#progetti h3{
+    float: right;
+}
+
+#progetti article{
+    margin: 10px;
+}
+
+/* FINE tentativo fallito delle 3 card */
