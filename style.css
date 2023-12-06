@@ -162,3 +162,42 @@ article .artprogetti{
  */
 
 /* FINE tentativo fallito delle 3 card */
+
+.card-wrapper-prj{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.card-header-prj{
+    position: relative;
+}
+
+.card-header-prj img{
+    width: 100%;
+
+}
+
+.card-header-prj h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-body-prj img{
+    width: 30%;
+    float: right;
+}
+
+.card-footer-prj img{
+    border-radius: 50%;
+}
+
+.card-footer-prj h3{
+    float: right;
+}
+
+.card-prj{
+    padding: 10px;
+}
