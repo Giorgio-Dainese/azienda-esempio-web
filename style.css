@@ -163,6 +163,7 @@ article .artprogetti{
 
 /* FINE tentativo fallito delle 3 card */
 
+
 .card-wrapper-prj{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -171,11 +172,10 @@ article .artprogetti{
 
 .card-header-prj{
     position: relative;
-}
+} 
 
 .card-header-prj img{
     width: 100%;
-
 }
 
 .card-header-prj h2{
@@ -188,16 +188,34 @@ article .artprogetti{
 .card-body-prj img{
     width: 30%;
     float: right;
+    margin: 5px 0 0 0;
 }
 
 .card-footer-prj img{
     border-radius: 50%;
+    
 }
 
-.card-footer-prj h3{
-    float: right;
+.card-footer-prj {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .card-prj{
     padding: 10px;
 }
+
+.clear{
+    clear: both;
+}
+
+.card-header-prj h2 {
+   background-color: rgb(255, 255, 255, 50%);
+   border-radius: 50%;
+   width: 70%;
+   display: flex;
+   justify-content: center;
+   text-transform: uppercase;
+}
+
